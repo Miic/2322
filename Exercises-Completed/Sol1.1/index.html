@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Reaction Tracker</title>
+  </head>
+  <body>
+    <div id="react-app"></div>
+
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script>
+        let welcomeMessage = React.createElement('h1', null, "Welcome to Reaction Tracker");
+        var targetDomElement = document.getElementById("react-app");
+      ReactDOM.render(welcomeMessage, targetDomElement);
+    </script>
+  </body>
+</html>

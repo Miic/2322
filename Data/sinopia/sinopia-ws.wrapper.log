@@ -1,0 +1,702 @@
+2015-10-26 15:15:18 - Starting sinopia C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-10-26 15:20:17 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-10-26 15:20:17 - Started 1060
+2015-10-26 15:28:54 - Stopping sinopia
+2015-10-26 15:28:54 - ProcessKill 1060
+2015-10-26 15:28:54 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-10-26 15:35:57 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-10-26 15:35:59 - Started 3020
+2015-10-31 04:49:33 - Stopping sinopia
+2015-10-31 04:49:33 - ProcessKill 3020
+2015-10-31 04:49:33 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-11-05 01:37:40 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-11-05 01:37:40 - Started 2816
+2015-11-05 01:38:33 - Stopping sinopia
+2015-11-05 01:38:33 - ProcessKill 2816
+2015-11-05 01:38:33 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-11-05 02:51:34 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-11-05 02:51:35 - Started 2744
+2015-12-05 09:35:43 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-05 09:35:43 - Started 2744
+2015-12-05 09:37:11 - Stopping sinopia
+2015-12-05 09:37:11 - ProcessKill 2744
+2015-12-05 09:37:11 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-12-05 09:37:40 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-05 09:37:40 - Started 2792
+2015-12-08 03:51:48 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-08 03:51:48 - Started 2720
+2015-12-10 04:01:29 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-10 04:01:29 - Started 2808
+2015-12-11 02:48:10 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-11 02:48:10 - Started 2712
+2015-12-21 06:32:15 - Stopping sinopia
+2015-12-21 06:32:15 - ProcessKill 2712
+2015-12-21 06:32:16 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-12-21 06:32:44 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-21 06:32:44 - Started 2792
+2015-12-29 01:52:48 - Stopping sinopia
+2015-12-29 01:52:48 - ProcessKill 2792
+2015-12-29 01:52:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2015-12-29 06:36:15 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2015-12-29 06:36:15 - Started 3008
+2016-01-01 13:54:34 - Stopping sinopia
+2016-01-01 13:54:34 - ProcessKill 3008
+2016-01-01 13:54:34 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-01 15:18:36 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-01 15:18:36 - Started 1960
+2016-01-02 01:21:49 - Stopping sinopia
+2016-01-02 01:21:49 - ProcessKill 1960
+2016-01-02 01:21:49 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-02 01:24:01 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-02 01:24:01 - Started 3080
+2016-01-11 06:50:26 - Stopping sinopia
+2016-01-11 06:50:26 - ProcessKill 3080
+2016-01-11 06:50:26 - Found child process: 3088 Name: conhost.exe
+2016-01-11 06:50:26 - Stopping process 3088
+2016-01-11 06:50:26 - Send SIGINT 3088
+2016-01-11 06:50:26 - SIGINT to 3088 failed - Killing as fallback
+2016-01-11 06:50:26 - Stopping process 3080
+2016-01-11 06:50:26 - Send SIGINT 3080
+2016-01-11 06:50:26 - SIGINT to 3080 failed - Killing as fallback
+2016-01-11 06:50:26 - Finished sinopia
+2016-01-11 07:19:15 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-11 07:19:15 - Started 2992
+2016-01-20 09:54:08 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 09:54:08 - Started 6900
+2016-01-20 09:56:16 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 09:56:16 - Started 9856
+2016-01-20 09:58:11 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 09:58:11 - Started 3524
+2016-01-20 09:58:29 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 09:58:29 - Started 10364
+2016-01-20 09:59:49 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 09:59:49 - Started 10496
+2016-01-20 10:06:42 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 10:06:42 - Started 4944
+2016-01-20 10:09:01 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-20 10:09:01 - Started 4496
+2016-01-25 09:01:04 - Stopping sinopia
+2016-01-25 09:01:04 - ProcessKill 4496
+2016-01-25 09:01:05 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-25 10:51:37 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-25 10:51:38 - Started 3160
+2016-01-25 11:21:35 - Stopping sinopia
+2016-01-25 11:21:35 - ProcessKill 3160
+2016-01-25 11:21:35 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-26 00:45:11 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-26 00:45:11 - Started 3360
+2016-01-28 03:01:18 - Stopping sinopia
+2016-01-28 03:01:18 - ProcessKill 3360
+2016-01-28 03:01:19 - Found child process: 3368 Name: conhost.exe
+2016-01-28 03:01:19 - Stopping process 3368
+2016-01-28 03:01:19 - Send SIGINT 3368
+2016-01-28 03:01:19 - SIGINT to 3368 failed - Killing as fallback
+2016-01-28 03:01:19 - Stopping process 3360
+2016-01-28 03:01:19 - Send SIGINT 3360
+2016-01-28 03:01:19 - SIGINT to 3360 failed - Killing as fallback
+2016-01-28 03:01:19 - Finished sinopia
+2016-01-28 05:34:15 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-28 05:34:15 - Started 280
+2016-01-28 07:49:53 - Stopping sinopia
+2016-01-28 07:49:53 - ProcessKill 280
+2016-01-28 07:49:53 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-28 07:59:18 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-28 07:59:18 - Started 2332
+2016-01-28 08:00:31 - Stopping sinopia
+2016-01-28 08:00:31 - ProcessKill 2332
+2016-01-28 08:00:31 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-28 08:01:30 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-28 08:01:31 - Started 3192
+2016-01-28 10:59:34 - Stopping sinopia
+2016-01-28 10:59:34 - ProcessKill 3192
+2016-01-28 11:00:08 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-01-28 11:03:19 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-28 11:03:19 - Started 3248
+2016-01-29 00:36:16 - Stopping sinopia
+2016-01-29 00:36:16 - ProcessKill 3248
+2016-01-29 00:36:16 - Found child process: 3256 Name: conhost.exe
+2016-01-29 00:36:16 - Stopping process 3256
+2016-01-29 00:36:16 - Send SIGINT 3256
+2016-01-29 00:36:16 - SIGINT to 3256 failed - Killing as fallback
+2016-01-29 00:36:16 - Stopping process 3248
+2016-01-29 00:36:16 - Send SIGINT 3248
+2016-01-29 00:36:16 - SIGINT to 3248 failed - Killing as fallback
+2016-01-29 00:36:16 - Finished sinopia
+2016-01-29 00:37:25 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-01-29 00:37:25 - Started 380
+2016-01-29 01:01:39 - Stopping sinopia
+2016-01-29 01:01:39 - ProcessKill 380
+2016-01-29 01:01:39 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-03 08:47:12 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-03 08:47:15 - Started 3852
+2016-03-04 07:21:19 - Stopping sinopia
+2016-03-04 07:21:19 - ProcessKill 3852
+2016-03-04 07:21:20 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-04 07:22:19 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-04 07:22:25 - Started 3844
+2016-03-04 07:25:53 - Stopping sinopia
+2016-03-04 07:25:53 - ProcessKill 3844
+2016-03-04 07:25:54 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-04 08:18:31 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-04 08:18:31 - Started 2408
+2016-03-04 08:21:59 - Stopping sinopia
+2016-03-04 08:21:59 - ProcessKill 2408
+2016-03-04 08:21:59 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-04 16:24:07 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-04 16:24:07 - Started 2880
+2016-03-04 16:31:10 - Stopping sinopia
+2016-03-04 16:31:10 - ProcessKill 2880
+2016-03-04 16:31:10 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-09 19:40:07 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-09 19:40:08 - Started 2876
+2016-03-09 20:07:52 - Stopping sinopia
+2016-03-09 20:07:52 - ProcessKill 2876
+2016-03-09 20:07:56 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-11 15:56:49 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-11 15:56:55 - Started 3568
+2016-03-11 16:04:40 - Stopping sinopia
+2016-03-11 16:04:40 - ProcessKill 3568
+2016-03-11 16:04:43 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-11 16:07:08 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-11 16:07:16 - Started 3700
+2016-03-11 16:12:02 - Stopping sinopia
+2016-03-11 16:12:02 - ProcessKill 3700
+2016-03-11 16:12:09 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-17 13:25:22 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-17 13:25:22 - Started 2804
+2016-03-17 13:58:39 - Stopping sinopia
+2016-03-17 13:58:39 - ProcessKill 2804
+2016-03-17 13:58:40 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-17 14:44:07 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-17 14:44:07 - Started 3056
+2016-03-17 15:31:16 - Stopping sinopia
+2016-03-17 15:31:16 - ProcessKill 3056
+2016-03-17 15:31:17 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-17 15:32:00 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-17 15:32:01 - Started 3260
+2016-03-17 15:42:33 - Stopping sinopia
+2016-03-17 15:42:33 - ProcessKill 3260
+2016-03-17 15:42:34 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-03-17 15:43:13 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-03-17 15:43:14 - Started 3380
+2016-03-17 15:53:12 - Stopping sinopia
+2016-03-17 15:53:12 - ProcessKill 3380
+2016-03-17 15:53:13 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-01 16:56:07 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-01 16:56:07 - Started 3808
+2016-06-01 17:38:05 - Stopping sinopia
+2016-06-01 17:38:05 - ProcessKill 3808
+2016-06-01 17:38:08 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-01 17:39:44 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-01 17:39:45 - Started 3592
+2016-06-02 12:50:41 - Stopping sinopia
+2016-06-02 12:50:41 - ProcessKill 3592
+2016-06-02 12:50:41 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-02 12:51:32 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-02 12:51:32 - Started 3496
+2016-06-02 14:03:13 - Stopping sinopia
+2016-06-02 14:03:13 - ProcessKill 3496
+2016-06-02 14:03:14 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-02 14:46:03 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-02 14:46:11 - Started 3692
+2016-06-10 12:53:30 - Stopping sinopia
+2016-06-10 12:53:30 - ProcessKill 3692
+2016-06-10 12:53:31 - Found child process: 3700 Name: conhost.exe
+2016-06-10 12:53:31 - Stopping process 3700
+2016-06-10 12:53:31 - Send SIGINT 3700
+2016-06-10 12:53:31 - SIGINT to 3700 failed - Killing as fallback
+2016-06-10 12:53:31 - Stopping process 3692
+2016-06-10 12:53:31 - Send SIGINT 3692
+2016-06-10 12:53:31 - SIGINT to 3692 failed - Killing as fallback
+2016-06-10 12:53:31 - Finished sinopia
+2016-06-10 13:10:50 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-10 13:10:50 - Started 4764
+2016-06-10 14:03:35 - Stopping sinopia
+2016-06-10 14:03:35 - ProcessKill 4764
+2016-06-10 14:03:35 - Found child process: 6040 Name: conhost.exe
+2016-06-10 14:03:35 - Stopping process 6040
+2016-06-10 14:03:35 - Send SIGINT 6040
+2016-06-10 14:03:35 - SIGINT to 6040 failed - Killing as fallback
+2016-06-10 14:03:35 - Stopping process 4764
+2016-06-10 14:03:35 - Send SIGINT 4764
+2016-06-10 14:03:35 - SIGINT to 4764 failed - Killing as fallback
+2016-06-10 14:03:35 - Finished sinopia
+2016-06-10 15:16:31 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-10 15:16:33 - Started 3912
+2016-06-10 15:18:29 - Stopping sinopia
+2016-06-10 15:18:29 - ProcessKill 3912
+2016-06-10 15:18:29 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-27 12:27:58 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-27 12:27:59 - Started 3140
+2016-06-28 11:58:53 - Stopping sinopia
+2016-06-28 11:58:53 - ProcessKill 3140
+2016-06-28 11:58:55 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2016-06-28 12:08:03 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2016-06-28 12:08:03 - Started 4736
+2016-06-28 12:35:03 - Stopping sinopia
+2016-06-28 12:35:03 - ProcessKill 4736
+2016-06-28 12:35:03 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-02 14:15:38 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-08-02 14:15:39 - Started 3104
+2018-08-02 18:57:34 - Stopping sinopia
+2018-08-02 18:57:34 - ProcessKill 3104
+2018-08-02 18:57:35 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-02 19:12:02 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-08-02 19:12:03 - Started 3668
+2018-08-02 20:17:14 - Stopping sinopia
+2018-08-02 20:17:14 - ProcessKill 3668
+2018-08-02 20:17:14 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-02 20:18:06 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-08-02 20:18:06 - Started 5292
+2018-08-02 20:28:15 - Stopping sinopia
+2018-08-02 20:28:15 - ProcessKill 5292
+2018-08-02 20:28:15 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-02 22:21:28 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-08-02 22:21:28 - Started 1656
+2018-08-02 22:52:14 - Stopping sinopia
+2018-08-02 22:52:14 - ProcessKill 1656
+2018-08-02 22:52:14 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-08-02 22:53:08 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-08-02 22:53:08 - Started 5732
+2018-08-02 22:54:46 - Stopping sinopia
+2018-08-02 22:54:46 - ProcessKill 5732
+2018-08-02 22:54:47 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-01 14:22:48 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-01 14:22:49 - Started 5180
+2018-10-01 14:24:59 - Stopping sinopia
+2018-10-01 14:24:59 - ProcessKill 5180
+2018-10-01 14:25:01 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-01 09:27:47 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-01 09:27:47 - Started 5504
+2018-10-01 09:36:06 - Stopping sinopia
+2018-10-01 09:36:06 - ProcessKill 5504
+2018-10-01 09:36:08 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-01 09:38:43 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-01 09:38:43 - Started 4208
+2018-10-08 08:11:58 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-08 08:11:58 - Started 4872
+2018-10-11 18:13:01 - Stopping sinopia
+2018-10-11 18:13:01 - ProcessKill 4872
+2018-10-11 18:13:03 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-11 18:14:08 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-11 18:14:09 - Started 4968
+2018-10-12 00:12:38 - Stopping sinopia
+2018-10-12 00:12:38 - ProcessKill 4968
+2018-10-12 00:12:38 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-12 00:13:31 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-12 00:13:31 - Started 5152
+2018-10-12 00:23:53 - Stopping sinopia
+2018-10-12 00:23:53 - ProcessKill 5152
+2018-10-12 00:23:53 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2018-10-12 00:24:38 - Starting node C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml
+2018-10-12 00:24:38 - Started 5228

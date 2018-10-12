@@ -1,0 +1,9 @@
+<service>
+  <id>sinopia</id>
+  <name>sinopia</name>
+  <description>This service runs sinopia, an npm cache and proxy</description>
+  <executable>node</executable>
+  <arguments>C:\Users\user\AppData\Roaming\npm\node_modules\sinopia\lib\cli.js -c C:\Users\user\AppData\Roaming\sinopia\config.yaml</arguments>
+  <logmode>roll</logmode>
+  <workingdirectory>C:\Users\user\AppData\Roaming\sinopia</workingdirectory>
+</service>

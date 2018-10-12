@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=5.0 <6",
+    "npm": ">=3.3 <4"
+  },
+  "dependencies": {
+    "react": "0.14.3",
+    "react-dom": "0.14.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "5.8.34",
+    "babel-loader": "^5.4.0",
+    "file-loader": "^0.8.5",
+    "jest-cli": "^0.8.2",
+    "react-addons-test-utils": "0.14.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "jest": {
+    "rootDir": "./src",
+    "scriptPreprocessor": "../preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "fbjs",
+      "react"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  }
+}

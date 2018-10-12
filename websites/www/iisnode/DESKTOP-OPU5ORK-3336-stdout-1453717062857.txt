@@ -1,0 +1,9 @@
+Reaction Tracker server running on port: \\.\pipe\f923b979-6828-489e-a99a-97583ca5b367
+/
+/
+/reactions
+/reactions
+/reactions/1
+/reactions/1
+/add
+/add
