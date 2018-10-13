@@ -4,7 +4,11 @@ export default class Reaction extends React.Component{
     render(){
 
         return(
-            <h3>Welcome to Reaction Tracker (from a component)</h3>
+            <div>
+                <h3>{this.props.question}</h3>
+                <button>{this.props.answer1}</button>
+                <button>{this.props.answer2}</button>
+            </div>
         );
     }
 }
