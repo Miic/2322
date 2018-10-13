@@ -1,5 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './App.css';
+import UIRoot from './components/UIRoot';
 
-export default function () {
-    return <h1>Welcome to Reaction Tracker (from a function)</h1>;
-};
+class App extends Component {
+  
+  render() {
+    return (
+      <UIRoot />
+    );
+  }
+}
+
+export default App;
