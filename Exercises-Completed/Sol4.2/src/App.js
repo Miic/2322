@@ -1,9 +1,22 @@
 import React, { Component } from 'react';
+import './App.css';
+import Reaction from './components/Reaction'
 
-export default class App extends Component {
+class App extends Component {
+  
+  render() {
+    return (
+      <div>
+        <div className="jumbotron text-center">
+          <h1>Welcome to Reaction Tracker</h1>
+          <p>Trends are kind of our thing</p> 
+        </div>
+        <div className="container">
+          <Reaction />
+        </div>
+      </div>
+    );
+  }
+}
 
-    render () {
-        return <h1>Welcome to Reaction Tracker (from an ES2015 class)</h1>;
-    }
-
-};
+export default App;
