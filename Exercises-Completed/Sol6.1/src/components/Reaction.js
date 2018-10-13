@@ -2,10 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 export default class Reaction extends React.Component{
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            answer1Count:0,
+            answer2Count:0
+        };
+    }
+
     render(){
         let {imageUrl, question, answer1, answer2} = this.props;
         return(
-            <div>
+            <div className="col-sm-3">
                 <img src={imageUrl} />
                 <h3>{question}</h3>
                 <button>{answer1}</button>
