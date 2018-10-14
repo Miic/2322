@@ -7,8 +7,8 @@ export default class ReactionContainer extends React.Component{
         return(
         <div className="container">
             <div className="row">
-                <Reaction question={42} answer1={41} 
-                    answer2={43}  imageUrl={true} />
+                <Reaction question="Which bird is from the Struthionidae family?" answer1="Ostrich" 
+                    answer2="Blue jay"  imageUrl="/assets/ostrich.png" />
                 <Reaction />
                 <Reaction question="Which is the better Apex predator?" answer1="Lion" 
                     answer2="Human" imageUrl="/assets/lion.png" />

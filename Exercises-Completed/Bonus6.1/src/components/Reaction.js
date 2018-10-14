@@ -25,13 +25,13 @@ export default class Reaction extends React.Component{
     render(){
         let {imageUrl, question, answer1, answer2} = this.props;
         return(
-            <div className="col-sm-3">
+            <div className="col-lg-3 col-sm-6">
                 <img alt="" src={imageUrl} />
                 <h3>{question}</h3>
                 <button onClick={this.incrementAnswer1.bind(this)}>
-                    {answer1} ({this.state.answer1Count})</button>
+                    {answer1} ({ Math.round(100 * this.state.answer1Count / ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)</button>
                 <button onClick={this.incrementAnswer2}>
-                    {answer2} ({this.state.answer2Count})</button>
+                    {answer2} ({ Math.round(100 * this.state.answer2Count / ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)</button>
             </div>
         );
     }

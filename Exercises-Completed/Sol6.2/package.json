@@ -1,34 +1,26 @@
 {
+  "name": "reaction-tracker",
+  "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=5.0 <6",
-    "npm": ">=3.3 <4"
-  },
   "dependencies": {
-    "react": "0.14.3",
-    "react-dom": "0.14.3"
-  },
-  "devDependencies": {
-    "babel": "^5.8.34",
-    "babel-core": "5.8.34",
-    "babel-loader": "^5.4.0",
-    "file-loader": "^0.8.5",
-    "jest-cli": "^0.8.2",
-    "react-addons-test-utils": "0.14.3",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.12.1"
-  },
-  "jest": {
-    "rootDir": "./src",
-    "scriptPreprocessor": "../preprocessor.js",
-    "unmockedModulePathPatterns": [
-      "fbjs",
-      "react"
-    ]
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.4"
   },
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
-  }
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -6,7 +6,8 @@ export default class Header extends React.Component{
 
         return(
             <div>
-                <div className="jumbotron text-center">
+                <div className="jumbotron text-center"
+                    style={{'margin-bottom':0}}>
                     <h1>Welcome to Reaction Tracker</h1>
                     <p>Trends are kind of our thing</p> 
                 </div>
