@@ -12,28 +12,40 @@ export default class Reaction extends React.Component{
         };
     }
 
+    incrementAnswer1() {
+        var currentAnswer1Count = this.state.answer1Count;
+        this.setState({answer1Count: currentAnswer1Count + 1});
+    }
+
+    incrementAnswer2 = () => {
+        var currentAnswer2Count = this.state.answer2Count;
+        this.setState({answer2Count: currentAnswer2Count + 1});
+    }
+
     render(){
         let {imageUrl, question, answer1, answer2} = this.props;
         return(
             <div className="col-sm-3">
-                <img src={imageUrl} />
+                <img alt="" src={imageUrl} />
                 <h3>{question}</h3>
-                <button>{answer1}</button>
-                <button>{answer2}</button>
+                <button onClick={this.incrementAnswer1.bind(this)}>
+                    {answer1} ({this.state.answer1Count})</button>
+                <button onClick={this.incrementAnswer2}>
+                    {answer2} ({this.state.answer2Count})</button>
             </div>
         );
     }
 }
 
 Reaction.propTypes = {
-    question: PropTypes.string.isRequired,    
-    answer1: PropTypes.any,    
-    answer2: PropTypes.any,    
+    question: PropTypes.string.isRequired,
+    answer1: PropTypes.any,
+    answer2: PropTypes.any,
     imageUrl: PropTypes.string
 }
 
-Reaction.defaultProps = {    
-    question: "What is the answer to life?",    
-    answer1: "42",    
-    answer2: "NaN",    
+Reaction.defaultProps = {
+    question: "What is the answer to life?",
+    answer1: "42",
+    answer2: "NaN",
     imageUrl: "/assets/default-image.png"};
