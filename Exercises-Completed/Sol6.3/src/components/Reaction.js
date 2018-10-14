@@ -8,7 +8,8 @@ export default class Reaction extends React.Component{
 
         this.state = {
             answer1Count:0,
-            answer2Count:0
+            answer2Count:0,
+            isActive:true
         };
     }
 
@@ -22,16 +23,49 @@ export default class Reaction extends React.Component{
         this.setState({answer2Count: currentAnswer2Count + 1});
     }
 
+    //Life cycle method
+    componentDidMount() {
+        this.interval = window.setInterval(this.tick, 100);
+        this.setState({remainingMilliseconds: 10000});
+    }
+
+    //Life cycle method
+    componentWillUnmount() {
+        if (this.interval) {
+            window.clearInterval(this.interval);
+        }
+    }
+
+    tick = () => {
+        if (this.state.remainingMilliseconds > 0) {
+            this.setState({remainingMilliseconds:
+  
+            this.state.remainingMilliseconds - 100});
+  
+        } else {
+            window.clearInterval(this.interval);
+            this.setState({isActive: false});
+        }
+      }
+
     render(){
         let {imageUrl, question, answer1, answer2} = this.props;
         return(
+            
             <div className="col-lg-3 col-sm-6">
+                <div>Remaining Time: {this.state.remainingMilliseconds}ms</div>
                 <img alt="" src={imageUrl} />
                 <h3>{question}</h3>
-                <button onClick={this.incrementAnswer1.bind(this)}>
-                    {answer1} ({ Math.round(100 * this.state.answer1Count / ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)</button>
-                <button onClick={this.incrementAnswer2}>
-                    {answer2} ({ Math.round(100 * this.state.answer2Count / ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)</button>
+                <button onClick={this.incrementAnswer1.bind(this)}
+                        disabled={!this.state.isActive}>
+                    {answer1} ({ Math.round(100 * this.state.answer1Count / 
+                        ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)
+                </button>
+                <button onClick={this.incrementAnswer2}
+                        disabled={!this.state.isActive}>
+                    {answer2} ({ Math.round(100 * this.state.answer2Count / 
+                        ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)
+                </button>
             </div>
         );
     }
