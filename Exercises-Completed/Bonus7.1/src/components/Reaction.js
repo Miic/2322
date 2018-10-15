@@ -1,76 +1,88 @@
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export default React.createClass({
-    componentDidMount: function () {
-        if (this.props.reactionSeconds > 0) {
-            this.interval = window.setInterval(this.tick, 100);
-            this.setState({remainingMilliseconds: this.props.reactionSeconds * 1000});
+export default class Reaction extends React.Component{
+
+    constructor(props){
+        super(props);
+
+        this.state = {
+            answer1Count:0,
+            answer2Count:0,
+            isActive:true
+        };
+    }
+
+    incrementAnswer1() {
+        var currentAnswer1Count = this.state.answer1Count;
+        this.setState({answer1Count: currentAnswer1Count + 1});
+    }
+
+    incrementAnswer2 = () => {
+        var currentAnswer2Count = this.state.answer2Count;
+        this.setState({answer2Count: currentAnswer2Count + 1});
+    }
+
+    //Life cycle method
+    componentDidMount() {
+        this.interval = window.setInterval(this.tick, 100);
+        this.setState({remainingMilliseconds: this.props.reactionSeconds});
+    }
+
+    //Life cycle method
+    componentWillUnmount() {
+        if (this.interval) {
+            window.clearInterval(this.interval);
         }
-    },
-    tick: function () {
+    }
+
+    tick = () => {
         if (this.state.remainingMilliseconds > 0) {
-            this.setState({remainingMilliseconds: this.state.remainingMilliseconds - 100});
+            this.setState({remainingMilliseconds:
+  
+            this.state.remainingMilliseconds - 100});
+  
         } else {
             window.clearInterval(this.interval);
             this.setState({isActive: false});
         }
-    },
-    componentWillUnmount: function () {
-        if (this.interval) {
-            window.clearInterval(this.interval);
-        }
-    },
-    getDefaultProps: function () {
-        return {
-            question: "What is the answer to life, the universe and everything?",
-            answer1: "42",
-            answer2: "NaN",
-            imageUrl: "/assets/default-image.png",
-            reactionSeconds: 0
-        };
-    },
-    getInitialState: function () {
-        return {
-            answer1Count: 0,
-            answer2Count: 0,
-            isActive: true
-        };
-    },
-    incrementAnswer1: function () {
-        var currentAnswer1Count = this.state.answer1Count;
-        this.setState({answer1Count: currentAnswer1Count + 1});
-    },
-    incrementAnswer2: function () {
-        var currentAnswer2Count = this.state.answer2Count;
-        this.setState({answer2Count: currentAnswer2Count + 1});
-    },
-    propTypes: {
-        question: React.PropTypes.string,
-        answer1: React.PropTypes.any,
-        answer2: React.PropTypes.any,
-        imageUrl: React.PropTypes.string,
-        reactionSeconds: React.PropTypes.number
-    },
-    render: function () {
-        return <div style={{padding: 5, border: "1px black solid", margin: 10, width: 256, float: 'left'}}>
-            <img src={this.props.imageUrl}/>
-            {(() => {
-                if (this.props.reactionSeconds > 0 && this.state.remainingMilliseconds > 0) {
-                    return <div>
-                        Time remaining: {this.state.remainingMilliseconds / 1000}s
-                    </div>;
-                }
-                return;
-            })()}
+      }
 
-            <h3>{this.props.question}</h3>
-            <button disabled={!this.state.isActive} onClick={this.incrementAnswer1}>{this.props.answer1} [{this.state.answer1Count}]
-                [{Math.round(100 * this.state.answer1Count / ( this.state.answer1Count + this.state.answer2Count))}]%
-            </button>
-            <button disabled={!this.state.isActive} onClick={this.incrementAnswer2}>{this.props.answer2} [{this.state.answer2Count}]
-                [{Math.round(100 * this.state.answer2Count / ( this.state.answer1Count + this.state.answer2Count))}]%
-            </button>
-        </div>;
+    render(){
+        let {imageUrl, question, answer1, answer2} = this.props;
+        return(
+            
+            <div className="col-lg-3 col-sm-6 border">
+                <div>Remaining Time: {this.state.remainingMilliseconds}ms</div>
+                <img alt="" src={imageUrl} />
+                <h3>{question}</h3>
+                <button onClick={this.incrementAnswer1.bind(this)}
+                        disabled={!this.state.isActive}>
+                    {answer1} ({ Math.round(100 * this.state.answer1Count / 
+                        ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)
+                </button>
+                <button onClick={this.incrementAnswer2}
+                        disabled={!this.state.isActive}>
+                    {answer2} ({ Math.round(100 * this.state.answer2Count / 
+                        ( this.state.answer1Count + this.state.answer2Count)) || 0 }%)
+                </button>
+            </div>
+        );
     }
+}
 
-});
+Reaction.propTypes = {
+    question: PropTypes.string.isRequired,
+    answer1: PropTypes.any,
+    answer2: PropTypes.any,
+    imageUrl: PropTypes.string,
+    reactionSeconds: PropTypes.number
+}
+
+Reaction.defaultProps = {
+    question: "What is the answer to life?",
+    answer1: "42",
+    answer2: "NaN",
+    imageUrl: "/assets/default-image.png",
+    reactionSeconds: 10000
+};
