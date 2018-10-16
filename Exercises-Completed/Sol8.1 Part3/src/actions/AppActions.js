@@ -15,4 +15,18 @@ export default class AppActions{
             id: id
         });
     }
+
+    static addAnswer1Vote(id){
+        AppDispatcher.dispatch({
+            actionType: AppConstants.ADD_ANSWER_1,
+            id: id
+        });
+    }
+
+    static addAnswer2Vote(id){
+        AppDispatcher.dispatch({
+            actionType: AppConstants.ADD_ANSWER_2,
+            id: id
+        });
+    }
 }

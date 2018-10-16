@@ -18,12 +18,22 @@ let _reactionsList = [
         imageUrl:"/assets/ostrich.png"}
 ];
 
+let _userName = "student!";
+
 const CHANGE_EVENT = 'change';
 
 class ReactionsStore extends EventEmitter{
     getAll() {
         return _reactionsList;
     }
+
+    getOne(id){
+        return _getOne(id);
+    }
+    
+    getName() {
+        return _userName;
+      }
 
     emitChange() {
         this.emit(CHANGE_EVENT);
@@ -41,6 +51,14 @@ class ReactionsStore extends EventEmitter{
 
 function _add(reactionToAdd) {
     _reactionsList.push(reactionToAdd);
+}
+
+function _getOne(id) {
+
+    let foundReaction = _reactionsList.find( (aReaction) => {
+        return aReaction.id === id;
+    });
+    return foundReaction;
 }
 
 function _remove(id) {
