@@ -32,8 +32,9 @@ export default class ReactionDetail extends React.Component{
     render() {
         let {id, imageUrl, question, answer1, answer2, 
             answer1Votes, answer2Votes} = this.state.reactionItem;
-        const answerData = [{name: answer1, value: 5}, 
-            {name: answer2, value: 10}];
+        const answerData = [
+            {name: answer1, value: answer1Votes}, 
+            {name: answer2, value: answer2Votes}];
         
         return (
             <div class="d-flex justify-content-center">
