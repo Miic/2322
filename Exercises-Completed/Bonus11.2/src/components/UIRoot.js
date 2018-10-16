@@ -1,27 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import ReactionContainer from './ReactionContainer'
+import {Route, Switch } from "react-router-dom";
+import NewReactionForm from './NewReactionForm';
+import ReactionDetail from './ReactionDetail'
+import AppActions from '../actions/AppActions'
 
-import { Grid, Jumbotron } from 'react-bootstrap';
+export default class UIRoot extends React.Component{
 
-import Bot from './Bot';
-import ErrorAlert from './ErrorAlert';
-import Header from './Header';
-import Footer from './Footer';
-
-import AppActions from '../actions/AppActions';
-
-export default class UIRoot extends Component {
     componentWillMount() {
         AppActions.apiGetAll();
     }
 
-    render() {
-        return <div>
-            <Header />
-            <Grid>
-                <Bot />
-                {this.props.children}
-            </Grid>
-            <Footer />
-        </div>;
+    render(){
+
+        return(
+            <div>
+                <Header />
+                    <Switch>
+                        <Route exact path="/" component={ReactionContainer} />
+                        <Route path="/add" component={NewReactionForm} />
+                        <Route path="/reactions/:id" component={ReactionDetail} />
+                        <Route component={ReactionContainer} />
+                    </Switch>
+                <Footer />
+            </div> 
+        );
     }
-};
+}

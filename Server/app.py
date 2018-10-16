@@ -1,4 +1,4 @@
-
+from flask import request
 from flask_cors import CORS
 from flask import Flask, Response, jsonify
 
@@ -29,6 +29,30 @@ def hello_world():
 def get_reactions():
     resp = jsonify(dummy_data)
     return resp
+
+@app.route('/api/reactions', methods=['POST'])
+def add_reaction():
+    dummy_data.append(request.json)
+    print(f'Adding reaction {request.json}')
+    return jsonify(dummy_data)
+
+@app.route('/api/reactions/<rId>', methods=['DELETE'])
+def remove_reaction(rId):
+    rId = int(rId)
+    print(f'Removing reaction id {rId}')
+    dummy_data[:] = [r for r in dummy_data if r.get('id') != rId]
+    return jsonify(dummy_data)
+
+# @app.route('/api/user/<user_id>', methods=['GET'])
+# def get_user(user_id):
+#     user_id = int(user_id)
+#     if user_id in dummy_users:
+#         js = json.dumps(dummy_users[user_id])
+#         resp = Response(js, status=200, mimetype='application/json')
+#         return resp
+#     else:
+#         print(f"User id:{user_id} not found")
+#         abort(404, 'User id not found')
 
 
 if __name__ == '__main__':

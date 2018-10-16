@@ -6,8 +6,24 @@ import fetch from 'isomorphic-fetch';
 export default class AppActions{
     static add(reactionToAdd) {
         AppDispatcher.dispatch({
-            actionType: AppConstants.REACTION_ADD,
-            data: reactionToAdd
+            actionType: AppConstants.API_ADD_START
+        });
+    
+        fetch('http://localhost:5000/api/reactions', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            method: 'post',
+            mode: 'cors',
+            body: JSON.stringify(reactionToAdd)
+        }).then(function (response) {
+            return response.json(); })
+        .then( (apiData) =>{
+            AppDispatcher.dispatch({
+                actionType: AppConstants.API_ADD_SUCCESS,
+                data: apiData
+            });
         });
     }
 

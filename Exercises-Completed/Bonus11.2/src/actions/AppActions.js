@@ -1,121 +1,80 @@
 import AppDispatcher from '../dispatcher/AppDispatcher';
 import AppConstants from '../constants/AppConstants';
-import ApiRequests from '../api/ApiRequests';
+import fetch from 'isomorphic-fetch';
 
-let AppActions = {
-    add: function (reactionToAdd) {
-        ApiRequests.add(reactionToAdd,
-            f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_ADD_START
-                });
-            },
-                apiData => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_ADD_SUCCESS,
-                    data: apiData
-                });
-            },
-                error => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_ADD_ERROR,
-                    error: error
-                });
-            }
-        );
-    },
-    remove: function (id) {
-        ApiRequests.remove(id,
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_REMOVE_START,
-                    id: id
-                });
-            },
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_REMOVE_SUCCESS
-                });
-            },
-                error => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_REMOVE_ERROR,
-                    error: error
-                });
-            }
-        );
-    },
-    voteAnswer1: function (id, name) {
-        ApiRequests.voteAnswer1(id, name,
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER1_START
-                });
-            },
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER1_SUCCESS,
-                    id: id,
-                    name: name
-                });
-            },
-                error => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER1_ERROR,
-                    error: error
-                });
-            }
-        );
-    },
-    voteAnswer2: function (id, name) {
-        ApiRequests.voteAnswer2(id, name,
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER2_START
-                });
-            },
-                f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER2_SUCCESS,
-                    id: id,
-                    name: name
-                });
-            },
-                error => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_VOTE_ANSWER2_ERROR,
-                    error: error
-                });
-            }
-        );
-    },
-    setUsername: function (name) {
+
+export default class AppActions{
+    static add(reactionToAdd) {
         AppDispatcher.dispatch({
-            actionType: AppConstants.SET_USERNAME,
-            name: name
+            actionType: AppConstants.API_ADD_START
         });
-    },
-    apiGetAll: function () {
-        ApiRequests.getAll(
-            f => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_GETALL_START
-                });
+    
+        fetch('http://localhost:5000/api/reactions', {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
             },
-            apiData => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_GETALL_SUCCESS,
-                    data: apiData
-                });
-            },
-            error => {
-                AppDispatcher.dispatch({
-                    actionType: AppConstants.API_GETALL_ERROR,
-                    error: error
-                });
-            }
-        );
+            method: 'post',
+            mode: 'cors',
+            body: JSON.stringify(reactionToAdd)
+        }).then(function (response) {
+            return response.json(); })
+        .then( (apiData) =>{
+            AppDispatcher.dispatch({
+                actionType: AppConstants.API_ADD_SUCCESS,
+                data: apiData
+            });
+        });
+    }
+
+    static remove(id) {
+        AppDispatcher.dispatch({
+            actionType: AppConstants.API_REMOVE_START
+        });
+        fetch(`http://localhost:5000/api/reactions/${id}`, {
+            method:"delete",
+            mode:"cors"
+        })
+        .then(function (response) {
+            return response.json(); })
+         .then(function (apiData) {
+               AppDispatcher.dispatch({
+               actionType: AppConstants.API_REMOVE_SUCCESS,
+               data: apiData
+            });
+         });
+    }
+
+    static addAnswer1Vote(id){
+        AppDispatcher.dispatch({
+            actionType: AppConstants.ADD_ANSWER_1,
+            id: id
+        });
+    }
+
+    static addAnswer2Vote(id){
+        AppDispatcher.dispatch({
+            actionType: AppConstants.ADD_ANSWER_2,
+            id: id
+        });
+    }
+
+    static apiGetAll() {
+        AppDispatcher.dispatch({
+            actionType: AppConstants.API_GETALL_START
+        });
+        fetch('http://localhost:5000/api/reactions', {
+            method:"GET",
+            mode:"cors"
+        })
+        .then(function (response) {
+            return response.json(); })
+         .then(function (apiData) {
+               AppDispatcher.dispatch({
+               actionType: AppConstants.API_GETALL_SUCCESS,
+               data: apiData
+            });
+         });
+
     }
 }
-
-export default AppActions;

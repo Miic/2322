@@ -117,6 +117,7 @@ AppDispatcher.register(function (action) {
             store.emitChange();
             break;
         case AppConstants.API_GETALL_SUCCESS:
+        case AppConstants.API_ADD_SUCCESS:
             _apiGetAllSuccess(action.data);
             store.emitChange();
             break;
