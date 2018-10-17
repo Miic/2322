@@ -1,132 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6314cb28-762a-4a8b-8c2a-cf075b1fa8f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/Bonus13.1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/cheetah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/default-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/lion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/ostrich.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/assets/rt-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/actions/AppActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/api/ApiRequests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/AddReactionForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/Bot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/ErrorAlert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/NotFound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/Reaction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/ReactionContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/ReactionDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/components/UIRoot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/constants/AppConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/dispatcher/AppDispatcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/src/stores/ReactionsStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Bonus13.1/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol11.2/src/stores/ReactionsStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises-Completed/Sol11.2/src/stores/ReactionsStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/components/Reaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/components/Reaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/components/ReactionContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/components/ReactionContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/stores/ReactionsStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises-Completed/Sol12.1/src/stores/ReactionsStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/Sol13.1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/cheetah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/default-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/lion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/ostrich.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/assets/rt-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/actions/AppActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/api/ApiRequests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/AddReactionForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/Bot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/ErrorAlert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/NotFound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/Reaction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/ReactionContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/ReactionDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/components/UIRoot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/constants/AppConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/dispatcher/AppDispatcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/src/stores/ReactionsStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol13.1/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/Sol14.1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/libraries/Sol14_1_node_modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/actions/AppActions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/api/ApiRequests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/car.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/cheetah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/default-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/lion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/ostrich.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/assets/rt-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/client/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/client/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/AddReactionForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Bot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/ErrorAlert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/NotFound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/Reaction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/ReactionContainer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/ReactionContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/ReactionDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/components/UIRoot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/constants/AppConstants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/dispatcher/AppDispatcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/routes/Routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/server/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/src/stores/ReactionsStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/webpack.client.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises-Completed/Sol14.1/webpack.server.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="6314cb28-762a-4a8b-8c2a-cf075b1fa8f0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +15,7 @@
     <session id="-187691067">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -168,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="147">
               <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -288,15 +163,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2267525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25605816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28674698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3260274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,7 +198,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="147">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
