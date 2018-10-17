@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import './App.css';
+import UIRoot from './components/UIRoot';
 
-export default class App extends Component {
+class App extends Component {
+  
+  render() {
+    return (
+      <UIRoot />
+    );
+  }
+}
 
-    render () {
-        return <h1>Welcome to Reaction Tracker (from an ES2015 class)</h1>;
-    }
-
-};
+export default App;

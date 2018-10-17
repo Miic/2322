@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
+import './App.css';
 import UIRoot from './components/UIRoot';
-import ReactionContainer from './components/ReactionContainer';
-import AddReactionForm from './components/AddReactionForm';
+import { BrowserRouter } from "react-router-dom";
 
-import { Router, Route, IndexRoute } from 'react-router';
+class App extends Component {
+  
+  render() {
+    return (
+      <BrowserRouter>
+        <UIRoot />
+      </BrowserRouter>
+    );
+  }
+}
 
-export default class App extends Component {
-
-    render () {
-        return <Router>
-            <Route path="/" component={UIRoot}>
-                <IndexRoute component={ReactionContainer}/>
-                <Route path="add" component={AddReactionForm}/>
-            </Route>
-        </Router>;
-    }
-
-};
+export default App;

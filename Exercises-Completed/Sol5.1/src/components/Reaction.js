@@ -1,13 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-export default React.createClass({
+export default class Reaction extends React.Component{
+    render(){
 
-    render: function () {
-        return <div>
-            <h3>{this.props.question}</h3>
-            <button>{this.props.answer1}</button>
-            <button>{this.props.answer2}</button>
-        </div>;
+        return(
+            <div>
+                <h3>{this.props.question}</h3>
+                <button>{this.props.answer1}</button>
+                <button>{this.props.answer2}</button>
+            </div>
+        );
     }
-
-});
+}

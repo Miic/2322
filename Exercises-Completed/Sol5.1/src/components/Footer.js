@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-export default class Footer extends Component {
+export default class Footer extends React.Component{
+    render(){
 
-    render () {
-        return <div>This is the Footer</div>;
+        return(
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+                <span className="navbar-text">
+                    Copyright 2018
+                </span>
+            </nav>
+        );
     }
-
-};
+}

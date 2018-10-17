@@ -1,23 +1,17 @@
-jest.dontMock('../Reaction');
-
 import React from 'react';
-import ReactDOM from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
+import Reaction from '../Reaction';
+import { shallow } from 'enzyme';
 
-const Reaction = require('../Reaction');
+const aReactionComponent = shallow(<Reaction question="Meaning of life?" 
+  answer1="13" answer2="42" imageUrl="/assets/cheetah.png" />);
+const aReactionObject = aReactionComponent.instance();
 
-describe('In a Reaction component', () => {
-    let reaction = TestUtils.renderIntoDocument(
-        <Reaction question="Test" answer1="A" answer2="B" />
-    );
-    let buttons = TestUtils.scryRenderedDOMComponentsWithTag(reaction, 'button');
-    let firstButtonNode = ReactDOM.findDOMNode(buttons[0]);
-
-    it('Clicking on a button should change button text', () => {
-
-        TestUtils.Simulate.click(firstButtonNode);
-
-        expect(firstButtonNode.textContent).toEqual('A [1] [100]%');
-
-    });
+it('creates a Reaction without crashing', () => {
+  expect(aReactionComponent).toBeTruthy();
 });
+
+it('has an answer2 of 42', () => {
+  expect(aReactionObject.props.answer2).toBe('42');
+});
+
+

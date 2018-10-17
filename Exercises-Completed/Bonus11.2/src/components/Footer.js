@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import { Navbar } from 'react-bootstrap';
+import React from 'react'
 
-export default class Footer extends Component {
+export default class Footer extends React.Component{
+    render(){
 
-    render () {
-        return <Navbar fixedBottom>
-            <Navbar.Text>&copy; 2015 - 2016 Reaction Tracker. All rights reserved</Navbar.Text>
-        </Navbar>;
+        return(
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+                <span className="navbar-text">
+                    Copyright 2018
+                </span>
+            </nav>
+        );
     }
-
-};
+}

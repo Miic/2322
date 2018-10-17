@@ -2,77 +2,68 @@ import AppDispatcher from '../dispatcher/AppDispatcher';
 import AppConstants from '../constants/AppConstants';
 import fetch from 'isomorphic-fetch';
 
-let AppActions = {
-    add: function (reactionToAdd) {
+
+export default class AppActions{
+    static add(reactionToAdd) {
         AppDispatcher.dispatch({
             actionType: AppConstants.API_ADD_START
         });
-
-        fetch('http://api.reactiontracker.com/reactions', {
+    
+        fetch('http://localhost:5000/api/reactions', {
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
             },
             method: 'post',
+            mode: 'cors',
             body: JSON.stringify(reactionToAdd)
         }).then(function (response) {
-            return response.json();
-        }).then(function (apiData) {
+            return response.json(); })
+        .then( (apiData) =>{
             AppDispatcher.dispatch({
                 actionType: AppConstants.API_ADD_SUCCESS,
                 data: apiData
             });
-        })
+        });
+    }
 
-    },
-    remove: function (id) {
+    static remove(id) {
         AppDispatcher.dispatch({
             actionType: AppConstants.REACTION_REMOVE,
             id: id
         });
-    },
-    voteAnswer1: function (id, name) {
+    }
+
+    static addAnswer1Vote(id){
         AppDispatcher.dispatch({
-            actionType: AppConstants.VOTE_ANSWER1,
-            id: id,
-            name: name
+            actionType: AppConstants.ADD_ANSWER_1,
+            id: id
         });
-    },
-    voteAnswer2: function (id, name) {
+    }
+
+    static addAnswer2Vote(id){
         AppDispatcher.dispatch({
-            actionType: AppConstants.VOTE_ANSWER2,
-            id: id,
-            name: name
+            actionType: AppConstants.ADD_ANSWER_2,
+            id: id
         });
-    },
-    setUsername: function (name) {
-        AppDispatcher.dispatch({
-            actionType: AppConstants.SET_USERNAME,
-            name: name
-        });
-    },
-    apiGetAll: function () {
+    }
+
+    static apiGetAll() {
         AppDispatcher.dispatch({
             actionType: AppConstants.API_GETALL_START
         });
-        fetch('http://api.reactiontracker.com/reactions').then(function (response) {
-            if (!response.ok) {
-                throw new Error(response);
-            } else {
-                return response.json();
-            }
-        }).then(function (apiData) {
-            AppDispatcher.dispatch({
-                actionType: AppConstants.API_GETALL_SUCCESS,
-                data: apiData
+        fetch('http://localhost:5000/api/reactions', {
+            method:"GET",
+            mode:"cors"
+        })
+        .then(function (response) {
+            return response.json(); })
+         .then(function (apiData) {
+               AppDispatcher.dispatch({
+               actionType: AppConstants.API_GETALL_SUCCESS,
+               data: apiData
             });
-        }).catch(function (error) {
-            AppDispatcher.dispatch({
-                actionType: AppConstants.API_GETALL_ERROR,
-                error: error
-            });
-        });
+         });
+
     }
 }
-
-export default AppActions;

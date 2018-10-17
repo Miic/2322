@@ -1,53 +1,21 @@
-import React from 'react';
+import React from 'react'
+import Menu from './Menu';
+import {Jumbotron} from 'reactstrap'
 
-import AppActions from '../actions/AppActions';
-import ReactionsStore from '../stores/ReactionsStore';
-import {Navbar, Nav, NavItem, Image, Input} from 'react-bootstrap';
-import { LinkContainer } from 'react-router-bootstrap';
+export default class Header extends React.Component{
+    render(){
 
-
-export default React.createClass({
-    getInitialState: function () {
-      return {
-          name: ReactionsStore.getName()
-      };
-    },
-    componentDidMount: function () {
-        ReactionsStore.addChangeListener(this.onChange);
-    },
-    componentWillUnmount: function () {
-        ReactionsStore.removeChangeListener(this.onChange);
-    },
-    onChange: function () {
-        this.setState({
-            name: ReactionsStore.getName()
-        });
-    },
-    onNameChange: function (e) {
-        AppActions.setUsername(e.target.value);
-    },
-    render: function () {
-        return <Navbar fixedTop>
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <Image src="/assets/rt-logo.svg"/>
-                </Navbar.Brand>
-                <Navbar.Brand>
-                    Reaction Tracker
-                </Navbar.Brand>
-                <Navbar.Toggle />
-            </Navbar.Header>
-            <Navbar.Collapse>
-                <Navbar.Form pullRight>
-                    <Input type="text" value={this.state.name} onChange={this.onNameChange} />
-                </Navbar.Form>
-                <Nav pullRight>
-                    <NavItem href="#">Reactions</NavItem>
-                    <LinkContainer to="/add"><NavItem>Add</NavItem></LinkContainer>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>;
-
+        return(
+            <div>
+                {/* <div className="jumbotron text-center"
+                    style={{'marginBottom':0}}> */}
+                <Jumbotron className='text-center'
+                        style={{'marginBottom':0}}>
+                    <h1>Welcome to Reaction Tracker</h1>
+                    <p>Trends are kind of our thing</p> 
+                </Jumbotron>
+                <Menu />
+            </div>
+        );
     }
-
-});
+}
