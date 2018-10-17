@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import Header from './Header';
-import ReactionContainer from './ReactionContainer';
-import Footer from './Footer';
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import ReactionContainer from './ReactionContainer'
 
-export default class UIRoot extends Component {
+export default class UIRoot extends React.Component{
+    render(){
 
-    render() {
-        return <div>
-            <Header />
-
-            <h1>Welcome to Reaction Tracker!</h1>
-            <ReactionContainer />
-            <Footer />
-        </div>;
+        return(
+            <div>
+                <Header />
+                <ReactionContainer />
+                <Footer />
+            </div> 
+        );
     }
-
-};
+}

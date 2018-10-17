@@ -1,30 +1,18 @@
-import React from 'react';
+import React from 'react'
+import Menu from './Menu';
 
-import AppActions from '../actions/AppActions';
-import ReactionsStore from '../stores/ReactionsStore';
+export default class Header extends React.Component{
+    render(){
 
-export default React.createClass({
-    getInitialState: function () {
-      return {
-          name: ReactionsStore.getName()
-      };
-    },
-    componentDidMount: function () {
-        ReactionsStore.addChangeListener(this.onChange);
-    },
-    componentWillUnmount: function () {
-        ReactionsStore.removeChangeListener(this.onChange);
-    },
-    onChange: function () {
-        this.setState({
-            name: ReactionsStore.getName()
-        });
-    },
-    onNameChange: function (e) {
-        AppActions.setUsername(e.target.value);
-    },
-    render: function () {
-        return <div>This is the Header Username: <input value={this.state.name} onChange={this.onNameChange}/></div>;
+        return(
+            <div>
+                <div className="jumbotron text-center"
+                    style={{'marginBottom':0}}>
+                    <h1>Welcome to Reaction Tracker</h1>
+                    <p>Trends are kind of our thing</p> 
+                </div>
+                <Menu />
+            </div>
+        );
     }
-
-});
+}

@@ -1,13 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-export default React.createClass({
+export default class Reaction extends React.Component{
+    render(){
 
-    render: function () {
-        return <div>
-            <h3>Which is better?</h3>
-            <button>Hyundai</button>
-            <button>BMW</button>
-        </div>;
+        return(
+            <h3>Welcome to Reaction Tracker (from a component)</h3>
+        );
     }
-
-});
+}

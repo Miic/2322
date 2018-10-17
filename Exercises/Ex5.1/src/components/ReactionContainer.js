@@ -1,13 +1,13 @@
-import React from 'react';
-import Reaction from './Reaction';
+import React from 'react'
+import Reaction from './Reaction'
 
-export default React.createClass({
+export default class ReactionContainer extends React.Component{
+    render(){
 
-    render: function () {
-        return <div>
-            <Reaction />
-            <Reaction />
-        </div>;
+        return(
+        <div className="container">
+          <Reaction />
+        </div>
+        );
     }
-
-});
+}
