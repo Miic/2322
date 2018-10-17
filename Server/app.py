@@ -21,6 +21,7 @@ dummy_data = [ {'id': 0, 'question': "Question from server?",
         'imageUrl':"/assets/ostrich.png",
         'answer1Votes':0, 'answer2Votes':0}]
 
+
 @app.route('/')
 def hello_world():
     return 'Yup, service running'

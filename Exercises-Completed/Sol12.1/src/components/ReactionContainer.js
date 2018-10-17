@@ -2,7 +2,7 @@ import React from 'react'
 import Reaction from './Reaction'
 import AppActions from '../actions/AppActions';
 import ReactionsStore from '../stores/ReactionsStore';
-
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 export default class ReactionContainer extends React.Component{
 
@@ -31,12 +31,17 @@ export default class ReactionContainer extends React.Component{
 
         return(
         <div className="container">
-            <div className="row">
-            {
-                this.state.reactionList.map(aReaction=>
-                    <Reaction {...aReaction} key={aReaction.id}/>)
-            }
-            </div>
+
+                <ReactCSSTransitionGroup className='row'
+                        transitionName='fade'
+                        transitionEnterTimeout={500}
+                        transitionLeaveTimeout={500}>
+                    {
+                        this.state.reactionList.map(aReaction=>
+                            <Reaction {...aReaction} key={aReaction.id}/>)
+                    }
+                </ReactCSSTransitionGroup>
+
   
         </div>
         );

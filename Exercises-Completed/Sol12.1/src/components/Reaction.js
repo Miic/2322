@@ -40,6 +40,13 @@ export default class Reaction extends React.Component{
         }
     }
 
+    shouldComponentUpdate(newProps) {
+        if(this.state.remainingMilliseconds%1000 == 0)
+            return true;
+        else
+            return false;
+    }
+
     tick = () => {
         if (this.state.remainingMilliseconds > 0) {
             this.setState({remainingMilliseconds:

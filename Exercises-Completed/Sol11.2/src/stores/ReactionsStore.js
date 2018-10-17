@@ -36,11 +36,17 @@ class ReactionsStore extends EventEmitter{
     }
 
     getAnswer1Count(id){
-        return _getOne(id).answer1Votes;
+        if(_getOne(id))
+            return _getOne(id).answer1Votes;
+        else
+            return 0;
     }
 
     getAnswer2Count(id){
-        return _getOne(id).answer2Votes;
+        if(_getOne(id))
+            return _getOne(id).answer2Votes;
+        else
+            return 0;
     }
     
     getName() {
@@ -118,6 +124,7 @@ AppDispatcher.register(function (action) {
             break;
         case AppConstants.API_GETALL_SUCCESS:
         case AppConstants.API_ADD_SUCCESS:
+        case AppConstants.API_REMOVE_SUCCESS:
             _apiGetAllSuccess(action.data);
             store.emitChange();
             break;
