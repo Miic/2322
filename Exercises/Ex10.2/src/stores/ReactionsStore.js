@@ -46,6 +46,14 @@ class ReactionsStore extends EventEmitter{
     removeChangeListener(callback) {
         this.removeListener(CHANGE_EVENT, callback);
     }
+
+    getAnswer1Count(id){
+        return _getOne(id).answer1Votes;
+    }
+
+    getAnswer2Count(id){
+        return _getOne(id).answer2Votes;
+    }
 }
 
 

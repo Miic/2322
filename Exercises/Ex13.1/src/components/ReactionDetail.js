@@ -37,7 +37,7 @@ export default class ReactionDetail extends React.Component{
             {name: answer2, value: answer2Votes}];
         
         return (
-            <div class="d-flex justify-content-center">
+            <div className="d-flex justify-content-center">
                 <div>
                     <img alt="" src={imageUrl} />
                     <h3>{question}</h3>
