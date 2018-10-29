@@ -36,7 +36,11 @@ export default class ReactionDetail extends React.Component{
             {name: answer2, value: 10}];
         
         return (
+<<<<<<< HEAD
             <div class="d-flex justify-content-center">
+=======
+            <div className="d-flex justify-content-center">
+>>>>>>> B1
                 <div>
                     <img alt="" src={imageUrl} />
                     <h3>{question}</h3>
